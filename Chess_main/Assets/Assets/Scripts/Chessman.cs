@@ -18,6 +18,7 @@ public class Chessman : MonoBehaviour
     // References for sprites
     public Sprite black_queen, black_king, black_knight, black_pawn, black_bishop, black_rook;
     public Sprite white_queen, white_king, white_knight, white_pawn, white_bishop, white_rook;
+    public Sprite blocked_field;
 
     public void Activate()
     {
@@ -43,6 +44,9 @@ public class Chessman : MonoBehaviour
             case "white_pawn": this.GetComponent<SpriteRenderer>().sprite = white_pawn; break;
             case "white_bishop": this.GetComponent<SpriteRenderer>().sprite = white_bishop; break;
             case "white_rook": this.GetComponent<SpriteRenderer>().sprite = white_rook; break;
+
+            // Blocked field
+            case "blocked_field": this.GetComponent<SpriteRenderer>().sprite = blocked_field; break;
         }
     }
 
@@ -50,12 +54,12 @@ public class Chessman : MonoBehaviour
     {
         float x = xBoard;
         float y = yBoard;
-
-        x *= 1.11f;
-        y *= 1.1084f;
+        
+        x *= 1.105f;
+        y *= 1.105f;
 
         x += -3.8855f;
-        y += -3.8855f;
+        y += -3.87f;
 
         this.transform.position = new Vector3(x, y, -1.0f);
     }

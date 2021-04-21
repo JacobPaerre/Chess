@@ -109,3 +109,4 @@ MonoBehaviour:
   white_pawn: {fileID: 21300000, guid: bd110b0bff46f044eb92d2b409ea75f8, type: 3}
   white_bishop: {fileID: 21300000, guid: 1bd17c094e8288d4a8d8bc9d6fe68deb, type: 3}
   white_rook: {fileID: 21300000, guid: eaf4784b6d843694bb2d0909ade7e56d, type: 3}
+  blocked_field: {fileID: 21300000, guid: 87d2dd97ac61d934da2cef7d6433d030, type: 3}
