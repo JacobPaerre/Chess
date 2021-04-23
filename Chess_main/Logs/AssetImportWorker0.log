@@ -1,320 +1,317 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.4f1 (0abb6314276a) revision 703331'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19042.928; Version 2009; 64bit' Language: 'da' Physical Memory: 16304 MB
+OS: 'Windows 10 Home; OS build 19041.928; Version 2004; 64bit' Language: 'da' Physical Memory: 8005 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-D:\Program Files (x86)\Unity\2020.3.4f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2020.3.4f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Jacob/Desktop/Programmering eksamensprojekt/Chess/Chess_main
+C:/Users/Jacob/OneDrive/Dokumenter/GitHub/Javabog kapitel 5/Chess/Chess_main
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52506
-Successfully changed project path to: C:/Users/Jacob/Desktop/Programmering eksamensprojekt/Chess/Chess_main
-C:/Users/Jacob/Desktop/Programmering eksamensprojekt/Chess/Chess_main
+52365
+Successfully changed project path to: C:/Users/Jacob/OneDrive/Dokumenter/GitHub/Javabog kapitel 5/Chess/Chess_main
+C:/Users/Jacob/OneDrive/Dokumenter/GitHub/Javabog kapitel 5/Chess/Chess_main
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 35.69 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 124.32 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.4f1 (0abb6314276a)
-[Subsystems] Discovering subsystems at path D:/Program Files (x86)/Unity/2020.3.4f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Jacob/Desktop/Programmering eksamensprojekt/Chess/Chess_main/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Jacob/OneDrive/Dokumenter/GitHub/Javabog kapitel 5/Chess/Chess_main/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 2070 (ID=0x1f02)
+    Renderer: Intel(R) UHD Graphics 620 (ID=0x3ea0)
     Vendor:   
-    VRAM:     8031 MB
-    Driver:   27.21.14.6172
+    VRAM:     4002 MB
+    Driver:   26.20.100.7985
 Initialize mono
-Mono path[0] = 'D:/Program Files (x86)/Unity/2020.3.4f1/Editor/Data/Managed'
-Mono path[1] = 'D:/Program Files (x86)/Unity/2020.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'D:/Program Files (x86)/Unity/2020.3.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56900
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56332
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/Program Files (x86)/Unity/2020.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002273 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009926 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 36.25 ms, found 1 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 139.85 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.235 seconds
+- Completed reload, in  4.389 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001254 seconds.
+Registered in 0.005031 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 41.75 ms, found 1 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 71.80 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.442 seconds
+- Completed reload, in  2.834 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1811 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 84.9 MB.
-System memory in use after: 84.8 MB.
+System memory in use before: 85.5 MB.
+System memory in use after: 85.5 MB.
 
 Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2253.
-Total: 2.655100 ms (FindLiveObjects: 0.733700 ms CreateObjectMapping: 0.104100 ms MarkObjects: 1.689600 ms  DeleteObjects: 0.126400 ms)
+Total: 3.812600 ms (FindLiveObjects: 0.322100 ms CreateObjectMapping: 0.130500 ms MarkObjects: 3.105700 ms  DeleteObjects: 0.252000 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Assets/Scripts/Game.cs
-  artifactKey: Guid(7bb6146c35e91894a8833654ba8992b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Scripts/Game.cs using Guid(7bb6146c35e91894a8833654ba8992b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24258f34979427ea94f366a7a89bff72') in 0.047313 seconds
-  Import took 0.050122 seconds .
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 13.65 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 49.1 MB.
-System memory in use after: 49.1 MB.
-
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2253.
-Total: 4.899500 ms (FindLiveObjects: 0.905800 ms CreateObjectMapping: 0.218100 ms MarkObjects: 3.639800 ms  DeleteObjects: 0.133300 ms)
+  path: Assets/Assets/Sprites/chess/text.png
+  artifactKey: Guid(cd8cdbc748cbae14f8d5abd4427d787a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Sprites/chess/text.png using Guid(cd8cdbc748cbae14f8d5abd4427d787a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65021e6f95b805121ec7f9503ea8dbe6') in 0.237249 seconds
+  Import took 0.243144 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 670.385536 seconds.
-  path: Assets/Assets/Sprites/ref/chessboard_export.gif
-  artifactKey: Guid(5d7c5af37b8afd0418de58b141a52126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Sprites/ref/chessboard_export.gif using Guid(5d7c5af37b8afd0418de58b141a52126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f7a4bd77e863409b94432e077fc1bfe') in 0.267156 seconds
-  Import took 0.271419 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
+  Time since last request: 0.000387 seconds.
   path: Assets/Assets/Sprites/ref/chessboard_pink_export.gif
   artifactKey: Guid(f4564598f618eb4499e096509bad8039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Sprites/ref/chessboard_pink_export.gif using Guid(f4564598f618eb4499e096509bad8039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28127cfa208204a0a1e8ec7037a93f19') in 0.022651 seconds
-  Import took 0.026625 seconds .
+Start importing Assets/Assets/Sprites/ref/chessboard_pink_export.gif using Guid(f4564598f618eb4499e096509bad8039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f80ec6b58fcc49816124f5e832f46254') in 0.037306 seconds
+  Import took 0.043429 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000345 seconds.
+  Time since last request: 0.000366 seconds.
+  path: Assets/Assets/Sprites/chess/numbers.png
+  artifactKey: Guid(a2ecc678f79734f49af94304d3ed7c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Sprites/chess/numbers.png using Guid(a2ecc678f79734f49af94304d3ed7c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '808bd4fdff9e5b3677837f39b0d377cd') in 0.026602 seconds
+  Import took 0.030812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Assets/Sprites/chess/bg.png
+  artifactKey: Guid(66d555da207e7cf418e6ba0a02fcd8fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Sprites/chess/bg.png using Guid(66d555da207e7cf418e6ba0a02fcd8fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2d563edb718546d81fb5e310946e65e') in 0.029273 seconds
+  Import took 0.034733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/Assets/Sprites/chess/sprites.png
+  artifactKey: Guid(a54a0e9c39383ad45a214282b2b94ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Sprites/chess/sprites.png using Guid(a54a0e9c39383ad45a214282b2b94ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0425157db2ba26c88acadb4b5211af4a') in 0.035751 seconds
+  Import took 0.041587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000397 seconds.
+  path: Assets/Assets/Sprites/chess/black_rook.png
+  artifactKey: Guid(3c703cf1494fce54e9613cc13b493fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Sprites/chess/black_rook.png using Guid(3c703cf1494fce54e9613cc13b493fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c49fc15055a377d441aa40181447a424') in 0.036962 seconds
+  Import took 0.043574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/Assets/Sprites/chess/black_pawn.png
+  artifactKey: Guid(440a4ed2ad8bb714dba163b541fb99cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Sprites/chess/black_pawn.png using Guid(440a4ed2ad8bb714dba163b541fb99cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '084287777758487b21622d72fbb809a7') in 0.040470 seconds
+  Import took 0.046133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/Assets/Sprites/chess/board.png
+  artifactKey: Guid(b475e4d502857fc438b6f0e0028ee251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Sprites/chess/board.png using Guid(b475e4d502857fc438b6f0e0028ee251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1a44cde26314017f6363a30d2ffb785') in 0.030438 seconds
+  Import took 0.036513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Assets/Sprites/chess/black_knight.png
+  artifactKey: Guid(a8d89e51bb2e3b54484fcac8711d8d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Sprites/chess/black_knight.png using Guid(a8d89e51bb2e3b54484fcac8711d8d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '640c3ed7d3b2b82d6f83e95b606bdef6') in 0.022617 seconds
+  Import took 0.028354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Assets/Sprites/chess/white_king.png
+  artifactKey: Guid(37f64136070c5af4b99ef5374c2e74a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Sprites/chess/white_king.png using Guid(37f64136070c5af4b99ef5374c2e74a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57a9475bceff7716b75c1918f2d78600') in 0.025936 seconds
+  Import took 0.031632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Assets/Sprites/chess/white_bishop.png
+  artifactKey: Guid(1bd17c094e8288d4a8d8bc9d6fe68deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Sprites/chess/white_bishop.png using Guid(1bd17c094e8288d4a8d8bc9d6fe68deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e244beee6d19b3ec7b8204c624df731') in 0.027616 seconds
+  Import took 0.032613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
   path: Assets/Assets/Sprites/ref/chessboard_green_export.gif
   artifactKey: Guid(467bad50cb886c248a2c3f07ebce6e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Sprites/ref/chessboard_green_export.gif using Guid(467bad50cb886c248a2c3f07ebce6e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b1fe64ef8f87952c9dd56736a1594b4') in 0.023877 seconds
-  Import took 0.027922 seconds .
+Start importing Assets/Assets/Sprites/ref/chessboard_green_export.gif using Guid(467bad50cb886c248a2c3f07ebce6e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2239b67def1d8fc605bef158caa44f86') in 0.030107 seconds
+  Import took 0.035684 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.931858 seconds.
-  path: Assets/Assets/Sprites/chess/coords.jpg
-  artifactKey: Guid(580e83400cd29d04bb52478456a9f805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Sprites/chess/coords.jpg using Guid(580e83400cd29d04bb52478456a9f805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b62ab9c44d726ec5d95209124fa17b61') in 0.019197 seconds
-  Import took 0.022223 seconds .
+  Time since last request: 0.000340 seconds.
+  path: Assets/Assets/Sprites/chess/blocked_field.png
+  artifactKey: Guid(87d2dd97ac61d934da2cef7d6433d030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Sprites/chess/blocked_field.png using Guid(87d2dd97ac61d934da2cef7d6433d030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baa99be5e1f6773a23cb4a1926b09dfc') in 0.028926 seconds
+  Import took 0.036677 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001113 seconds.
-  path: Assets/Assets/Sprites/chess/coords.jpg
-  artifactKey: Guid(580e83400cd29d04bb52478456a9f805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Sprites/chess/coords.jpg using Guid(580e83400cd29d04bb52478456a9f805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b62ab9c44d726ec5d95209124fa17b61') in 0.010666 seconds
-  Import took 0.014261 seconds .
+  Time since last request: 0.000328 seconds.
+  path: Assets/Assets/Sprites/ref/chessboard_export.gif
+  artifactKey: Guid(5d7c5af37b8afd0418de58b141a52126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Sprites/ref/chessboard_export.gif using Guid(5d7c5af37b8afd0418de58b141a52126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04ca379d6263e3b1f41a1a0c9663ca17') in 0.030396 seconds
+  Import took 0.036678 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.201272 seconds.
-  path: Assets/Assets/Objects/Chesspiece.prefab
-  artifactKey: Guid(689daf75fed242f47a96f4cc2ed63ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Objects/Chesspiece.prefab using Guid(689daf75fed242f47a96f4cc2ed63ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96712d4436be35d7ed78d64340843a3c') in 0.143431 seconds
-  Import took 0.147124 seconds .
+  Time since last request: 0.000340 seconds.
+  path: Assets/Assets/Sprites/chess/MovePlate.png
+  artifactKey: Guid(674705fceea0b7141890f4ce247f9076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Sprites/chess/MovePlate.png using Guid(674705fceea0b7141890f4ce247f9076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76a98f617eb5a975f3d35b1ce671f605') in 0.032699 seconds
+  Import took 0.039097 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.445900 seconds.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Assets/Sprites/chess/white_pawn.png
+  artifactKey: Guid(bd110b0bff46f044eb92d2b409ea75f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Sprites/chess/white_pawn.png using Guid(bd110b0bff46f044eb92d2b409ea75f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c4430792e67cb0aabdd209cbf6517ca') in 0.027743 seconds
+  Import took 0.033972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Assets/Sprites/chess/white_queen.png
+  artifactKey: Guid(e83dd7e055b2b7949bbc54d1d929fe12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Sprites/chess/white_queen.png using Guid(e83dd7e055b2b7949bbc54d1d929fe12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e984cb013f6a163b724f048e6da1807') in 0.029127 seconds
+  Import took 0.035339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
   path: Assets/Assets/Sprites/chess/black_king.png
   artifactKey: Guid(64399fa125eeb0745b2fe0fda11b2bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Sprites/chess/black_king.png using Guid(64399fa125eeb0745b2fe0fda11b2bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '944c27e5afdc74a111430203fba6f99d') in 0.015996 seconds
-  Import took 0.019072 seconds .
+Start importing Assets/Assets/Sprites/chess/black_king.png using Guid(64399fa125eeb0745b2fe0fda11b2bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35b315d054013e02b548b88608a296d1') in 0.025645 seconds
+  Import took 0.031038 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.679078 seconds.
-  path: Assets/Assets/Objects/Chesspiece.prefab
-  artifactKey: Guid(689daf75fed242f47a96f4cc2ed63ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Objects/Chesspiece.prefab using Guid(689daf75fed242f47a96f4cc2ed63ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fdac57907120be9c2aa1f49e4548a28') in 0.019341 seconds
-  Import took 0.023151 seconds .
+  Time since last request: 0.000300 seconds.
+  path: Assets/Assets/Sprites/chess/white_rook.png
+  artifactKey: Guid(eaf4784b6d843694bb2d0909ade7e56d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Sprites/chess/white_rook.png using Guid(eaf4784b6d843694bb2d0909ade7e56d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0490fa00fc81f53136430ca0d78c2900') in 0.027818 seconds
+  Import took 0.033861 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.803814 seconds.
-  path: Assets/Assets/Objects/Chesspiece.prefab
-  artifactKey: Guid(689daf75fed242f47a96f4cc2ed63ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Objects/Chesspiece.prefab using Guid(689daf75fed242f47a96f4cc2ed63ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c3a66db8d6f315d29c74b327bf0d077') in 0.019350 seconds
-  Import took 0.023075 seconds .
+  Time since last request: 0.000347 seconds.
+  path: Assets/Assets/Sprites/chess/black_bishop.png
+  artifactKey: Guid(71d03ab48a180b8479df6f06be544847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Sprites/chess/black_bishop.png using Guid(71d03ab48a180b8479df6f06be544847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98c65da5f6545636d84c38a392cac202') in 0.026350 seconds
+  Import took 0.032584 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.193757 seconds.
-  path: Assets/Assets/Objects/Chesspiece.prefab
-  artifactKey: Guid(689daf75fed242f47a96f4cc2ed63ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Objects/Chesspiece.prefab using Guid(689daf75fed242f47a96f4cc2ed63ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfdfcfa868c8d0dda5215e1db275e045') in 0.016417 seconds
-  Import took 0.019141 seconds .
+  Time since last request: 0.000447 seconds.
+  path: Assets/Assets/Sprites/chess/white_knight.png
+  artifactKey: Guid(d9f545716a93882428843e9b4fa74b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Sprites/chess/white_knight.png using Guid(d9f545716a93882428843e9b4fa74b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '094fc6f46a0f78ac79500cba5cb2a3e2') in 0.026285 seconds
+  Import took 0.032118 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.836944 seconds.
-  path: Assets/Assets/Objects/Chesspiece.prefab
-  artifactKey: Guid(689daf75fed242f47a96f4cc2ed63ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Objects/Chesspiece.prefab using Guid(689daf75fed242f47a96f4cc2ed63ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a8c0254b77684a7aec7d1381f01c91c') in 0.018399 seconds
-  Import took 0.021917 seconds .
+  Time since last request: 0.000294 seconds.
+  path: Assets/Assets/Sprites/chess/coords.jpg
+  artifactKey: Guid(580e83400cd29d04bb52478456a9f805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Sprites/chess/coords.jpg using Guid(580e83400cd29d04bb52478456a9f805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e5cfdf558213352a71536bfb00e3b28') in 0.035349 seconds
+  Import took 0.041561 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000392 seconds.
-  path: Assets/Assets/Objects/Chesspiece.prefab
-  artifactKey: Guid(689daf75fed242f47a96f4cc2ed63ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Objects/Chesspiece.prefab using Guid(689daf75fed242f47a96f4cc2ed63ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a8c0254b77684a7aec7d1381f01c91c') in 0.017357 seconds
-  Import took 0.020906 seconds .
+  Time since last request: 0.000333 seconds.
+  path: Assets/Assets/Scripts/MovePlate.cs
+  artifactKey: Guid(cea42510d3601c84ead7b9dacdf2da4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/MovePlate.cs using Guid(cea42510d3601c84ead7b9dacdf2da4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3be5f9862464fdd8e91df200cdd528f9') in 0.024073 seconds
+  Import took 0.030217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/Assets/Sprites/chess/black_queen.png
+  artifactKey: Guid(09c0eb23cb007c541b5490dd82450047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Sprites/chess/black_queen.png using Guid(09c0eb23cb007c541b5490dd82450047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ed4ada320670ca9ff4b342092d7a472') in 0.025560 seconds
+  Import took 0.031798 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 52.6 MB.
+System memory in use after: 52.6 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2285.
+Total: 5.878200 ms (FindLiveObjects: 0.409500 ms CreateObjectMapping: 0.189400 ms MarkObjects: 5.061800 ms  DeleteObjects: 0.214800 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001625 seconds.
+Registered in 0.001346 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.03 ms, found 1 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.992 seconds
+- Completed reload, in  1.641 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1806 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.0 MB.
-System memory in use after: 87.9 MB.
+System memory in use before: 88.6 MB.
+System memory in use after: 88.6 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2270.
-Total: 2.067500 ms (FindLiveObjects: 0.230600 ms CreateObjectMapping: 0.212600 ms MarkObjects: 1.525900 ms  DeleteObjects: 0.097100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 42.794981 seconds.
-  path: Assets/Assets/Objects/Chesspiece.prefab
-  artifactKey: Guid(689daf75fed242f47a96f4cc2ed63ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Objects/Chesspiece.prefab using Guid(689daf75fed242f47a96f4cc2ed63ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '161cac1815b3cc967429efaedb9b5925') in 0.070275 seconds
-  Import took 0.073713 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.616292 seconds.
-  path: Assets/Assets/Objects/Chesspiece.prefab
-  artifactKey: Guid(689daf75fed242f47a96f4cc2ed63ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Objects/Chesspiece.prefab using Guid(689daf75fed242f47a96f4cc2ed63ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2c98f9b500040d8e1576c1d284f6f8d') in 0.020159 seconds
-  Import took 0.023187 seconds .
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2289.
+Total: 2.385300 ms (FindLiveObjects: 0.278600 ms CreateObjectMapping: 0.204900 ms MarkObjects: 1.786600 ms  DeleteObjects: 0.113700 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001461 seconds.
+Registered in 0.001421 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.057 seconds
+- Completed reload, in  1.611 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.96 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1806 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.0 MB.
-System memory in use after: 88.0 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2275.
-Total: 2.400400 ms (FindLiveObjects: 0.299200 ms CreateObjectMapping: 0.081800 ms MarkObjects: 1.917700 ms  DeleteObjects: 0.100200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001162 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.810 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1806 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.1 MB.
-System memory in use after: 88.0 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2279.
-Total: 1.880700 ms (FindLiveObjects: 0.217500 ms CreateObjectMapping: 0.091400 ms MarkObjects: 1.479300 ms  DeleteObjects: 0.091700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.041020 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.836 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1806 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.1 MB.
-System memory in use after: 88.1 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2283.
-Total: 2.573000 ms (FindLiveObjects: 0.316200 ms CreateObjectMapping: 0.169000 ms MarkObjects: 1.970100 ms  DeleteObjects: 0.116700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001190 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.821 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1806 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.1 MB.
-System memory in use after: 88.1 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2287.
-Total: 1.789600 ms (FindLiveObjects: 0.192500 ms CreateObjectMapping: 0.069400 ms MarkObjects: 1.433200 ms  DeleteObjects: 0.093800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001537 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.017 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1806 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.1 MB.
-System memory in use after: 88.1 MB.
+System memory in use before: 88.6 MB.
+System memory in use after: 88.6 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2291.
-Total: 2.140900 ms (FindLiveObjects: 0.344900 ms CreateObjectMapping: 0.085300 ms MarkObjects: 1.616600 ms  DeleteObjects: 0.093000 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2293.
+Total: 3.196900 ms (FindLiveObjects: 0.243000 ms CreateObjectMapping: 0.089500 ms MarkObjects: 2.697700 ms  DeleteObjects: 0.164200 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

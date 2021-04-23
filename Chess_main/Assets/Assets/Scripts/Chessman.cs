@@ -211,6 +211,7 @@ public class Chessman : MonoBehaviour
     public void PawnMovePlate(int x, int y)
     {
         Game sc = controller.GetComponent<Game>();
+        GameObject cp = sc.GetPosition(x, y);
 
         if (sc.PositionOnBoard(x, y))
         {
@@ -221,14 +222,16 @@ public class Chessman : MonoBehaviour
 
             if (sc.PositionOnBoard(x +1, y) 
                 && sc.GetPosition(x+1,y) != null 
-                && sc.GetPosition(x+1,y).GetComponent<Chessman>().player != player)
+                && sc.GetPosition(x+1,y).GetComponent<Chessman>().player != player
+                && cp.GetComponent<Chessman>().player != "blocked")
             {
                 MovePlateAttackSpawn(x + 1, y);
             }
 
             if (sc.PositionOnBoard(x - 1, y)
-                && sc.GetPosition(x - 1, y) != null
-                && sc.GetPosition(x - 1, y).GetComponent<Chessman>().player != player)
+                && sc.GetPosition(x + 1, y) != null
+                && sc.GetPosition(x + 1, y).GetComponent<Chessman>().player != player
+                && cp.GetComponent<Chessman>().player != "blocked")
             {
                 MovePlateAttackSpawn(x - 1, y);
             }
