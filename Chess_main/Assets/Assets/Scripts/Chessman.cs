@@ -168,14 +168,15 @@ public class Chessman : MonoBehaviour
 
     public void LMovePlate()
     {
-        PointMovePlate(xBoard + 1, yBoard + 2);
-        PointMovePlate(xBoard - 1, yBoard + 2);
-        PointMovePlate(xBoard + 2, yBoard + 2);
-        PointMovePlate(xBoard + 2, yBoard - 1);
         PointMovePlate(xBoard + 1, yBoard - 2);
+        PointMovePlate(xBoard + 1, yBoard + 2);
+        PointMovePlate(xBoard + 2, yBoard - 1);
+        PointMovePlate(xBoard + 2, yBoard + 1);
+
         PointMovePlate(xBoard - 1, yBoard - 2);
-        PointMovePlate(xBoard - 2, yBoard + 1);
+        PointMovePlate(xBoard - 1, yBoard + 2);
         PointMovePlate(xBoard - 2, yBoard - 1);
+        PointMovePlate(xBoard - 2, yBoard + 1);
     }
 
     public void SurroundMovePlate()

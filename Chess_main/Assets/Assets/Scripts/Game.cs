@@ -42,7 +42,7 @@ public class Game : MonoBehaviour
         blockedField = new GameObject[]
         {
             Create("blocked_field", 3, 4), Create("blocked_field", 4, 4),
-            Create("blocked_field", 3, 3), Create("blocked_field", 4, 3),
+            Create("blocked_field", 3, 3), Create("blocked_field", 4, 3)
         };
 
 
@@ -89,7 +89,7 @@ public class Game : MonoBehaviour
 
     public bool PositionOnBoard(int x, int y)
     {
-        if (x < 0 || y < 0 || x >= positions.GetLength(0) || y >= positions.GetLength(1)) return false;
+        if (x < -5 || x > 9 || y < 0 || y > 7) return false;
         return true;
     }
 
