@@ -58,7 +58,7 @@ public class Chessman : MonoBehaviour
         x *= 1.105f;
         y *= 1.105f;
 
-        x += -3.87f;
+        x += -6.08f;
         y += -3.87f;
 
         this.transform.position = new Vector3(x, y, -1.0f);
@@ -124,7 +124,7 @@ public class Chessman : MonoBehaviour
                 LineMovePlate(1, 1);
                 LineMovePlate(1, -1);
                 LineMovePlate(-1, -1);
-                LineMovePlate(-1, -1);
+                LineMovePlate(-1, 1);
                 break;
             case "black_king":
             case "white_king":
@@ -160,7 +160,7 @@ public class Chessman : MonoBehaviour
             y += yIncrement;
         }
 
-        if (sc.PositionOnBoard(x, y) && sc.GetPosition(x,y).GetComponent<Chessman>().player != player && sc.GetComponent<Chessman>().player != "blocked")
+        if (sc.PositionOnBoard(x, y) && sc.GetPosition(x,y).GetComponent<Chessman>().player != player && sc.GetPosition(x, y).GetComponent<Chessman>().player != "blocked")
         {
             MovePlateAttackSpawn(x, y);
         }
@@ -248,7 +248,7 @@ public class Chessman : MonoBehaviour
         x *= 1.105f;
         y *= 1.105f;
 
-        x += -3.87f;
+        x += -6.08f;
         y += -3.87f;
 
         GameObject mp = Instantiate(movePlate, new Vector3(x, y, -3.0f), Quaternion.identity);
@@ -266,8 +266,8 @@ public class Chessman : MonoBehaviour
         x *= 1.105f;
         y *= 1.105f;
 
-        x += -3.8855f;
-        y += -3.87f;
+        x += -6.08f;
+        y += -3.85f;
 
         GameObject mp = Instantiate(movePlate, new Vector3(x, y, -3.0f), Quaternion.identity);
 
