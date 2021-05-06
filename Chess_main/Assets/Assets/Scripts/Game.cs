@@ -27,23 +27,25 @@ public class Game : MonoBehaviour
     //that Unity can call for you
     public void Start()
     {
-         playerWhite = new GameObject[] { Create("white_rook", 0, 0), Create("white_knight", 1, 0),
-             Create("white_bishop", 2, 0), Create("white_queen", 3, 0), Create("white_king", 4, 0),
-             Create("white_bishop", 5, 0), Create("white_knight", 6, 0), Create("white_rook", 7, 0),
-             Create("white_pawn", 0, 1), Create("white_pawn", 1, 1), Create("white_pawn", 2, 1),
-             Create("white_pawn", 3, 1), Create("white_pawn", 4, 1), Create("white_pawn", 5, 1),
-             Create("white_pawn", 6, 1), Create("white_pawn", 7, 1) };
+         playerWhite = new GameObject[] { Create("white_rook", 2, 0), Create("white_knight", 3, 0),
+             Create("white_bishop", 4, 0), Create("white_queen", 5, 0), Create("white_king", 6, 0),
+             Create("white_bishop", 7, 0), Create("white_knight", 8, 0), Create("white_rook", 9, 0),
+             Create("white_pawn", 2, 1), Create("white_pawn", 3, 1), Create("white_pawn", 4, 1),
+             Create("white_pawn", 7, 1), Create("white_pawn", 8, 1), Create("white_pawn", 9, 1),
+             Create("white_guard", 5, 1), Create("white_guard",6,1)
+         };
 
-         playerBlack = new GameObject[] { Create("black_rook", 0, 7), Create("black_knight",1,7),
-             Create("black_bishop",2,7), Create("black_queen",3,7), Create("black_king",4,7),
-             Create("black_bishop",5,7), Create("black_knight",6,7), Create("black_rook",7,7),
-             Create("black_pawn", 0, 6), Create("black_pawn", 1, 6), Create("black_pawn", 2, 6),
-             Create("black_pawn", 3, 6), Create("black_pawn", 4, 6), Create("black_pawn", 5, 6),
-             Create("black_pawn", 6, 6), Create("black_pawn", 7, 6) };
+         playerBlack = new GameObject[] { Create("black_rook", 2, 7), Create("black_knight",3,7),
+             Create("black_bishop",4,7), Create("black_queen",5,7), Create("black_king",6,7),
+             Create("black_bishop",7,7), Create("black_knight",8,7), Create("black_rook",9,7),
+             Create("black_pawn", 2, 6), Create("black_pawn", 3, 6), Create("black_pawn", 4, 6),
+             Create("black_pawn", 7, 6), Create("black_pawn", 8, 6), Create("black_pawn", 9, 6),
+             Create("black_guard", 5,6), Create("black_guard",6,6)
+         };
          blockedField = new GameObject[]
          {
-             Create("blocked_field", 3, 4), Create("blocked_field", 4, 4),
-             Create("blocked_field", 3, 3), Create("blocked_field", 4, 3)
+             Create("blocked_field", 5, 4), Create("blocked_field", 6, 4),
+             Create("blocked_field", 5, 3), Create("blocked_field", 6, 3)
          };
 
 
@@ -78,6 +80,7 @@ public class Game : MonoBehaviour
 
         //Overwrites either empty space or whatever was there
         positions[cm.GetXBoard(), cm.GetYBoard()] = obj;
+        NextTurn();
     }
 
     public void SetPositionEmpty(int x, int y)

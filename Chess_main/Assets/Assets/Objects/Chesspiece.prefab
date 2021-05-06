@@ -104,12 +104,14 @@ MonoBehaviour:
   black_pawn: {fileID: 21300000, guid: 440a4ed2ad8bb714dba163b541fb99cc, type: 3}
   black_bishop: {fileID: 21300000, guid: 71d03ab48a180b8479df6f06be544847, type: 3}
   black_rook: {fileID: 21300000, guid: 3c703cf1494fce54e9613cc13b493fc3, type: 3}
+  black_guard: {fileID: 21300000, guid: 77c4ed0991a07404e9172c7a9075fba1, type: 3}
   white_queen: {fileID: 21300000, guid: e83dd7e055b2b7949bbc54d1d929fe12, type: 3}
   white_king: {fileID: 21300000, guid: 37f64136070c5af4b99ef5374c2e74a6, type: 3}
   white_knight: {fileID: 21300000, guid: d9f545716a93882428843e9b4fa74b4f, type: 3}
   white_pawn: {fileID: 21300000, guid: bd110b0bff46f044eb92d2b409ea75f8, type: 3}
   white_bishop: {fileID: 21300000, guid: 1bd17c094e8288d4a8d8bc9d6fe68deb, type: 3}
   white_rook: {fileID: 21300000, guid: eaf4784b6d843694bb2d0909ade7e56d, type: 3}
+  white_guard: {fileID: 21300000, guid: 637e82e6adca94d44bd4bbebe1264c7e, type: 3}
   blocked_field: {fileID: 21300000, guid: 87d2dd97ac61d934da2cef7d6433d030, type: 3}
 --- !u!61 &7594716813095975339
 BoxCollider2D:
