@@ -16,8 +16,8 @@ public class Chessman : MonoBehaviour
     private string player;
 
     // References for sprites
-    public Sprite black_queen, black_king, black_knight, black_pawn, black_bishop, black_rook, black_guard;
-    public Sprite white_queen, white_king, white_knight, white_pawn, white_bishop, white_rook, white_guard;
+    public Sprite black_queen, black_king, black_knight, black_pawn, black_bishop, black_rook, black_guard, black_chicken;
+    public Sprite white_queen, white_king, white_knight, white_pawn, white_bishop, white_rook, white_guard, white_chicken;
     public Sprite blocked_field;
 
     public void Activate()
@@ -37,6 +37,7 @@ public class Chessman : MonoBehaviour
             case "black_bishop": this.GetComponent<SpriteRenderer>().sprite = black_bishop; player = "black"; break;
             case "black_rook": this.GetComponent<SpriteRenderer>().sprite = black_rook; player = "black"; break;
             case "black_guard": this.GetComponent<SpriteRenderer>().sprite = black_guard; player = "black"; break;
+            case "black_chicken": this.GetComponent<SpriteRenderer>().sprite = black_chicken; player = "black"; break;
 
             // White
             case "white_queen": this.GetComponent<SpriteRenderer>().sprite = white_queen; player = "white"; break;
@@ -46,6 +47,7 @@ public class Chessman : MonoBehaviour
             case "white_bishop": this.GetComponent<SpriteRenderer>().sprite = white_bishop; player = "white"; break;
             case "white_rook": this.GetComponent<SpriteRenderer>().sprite = white_rook; player = "white"; break;
             case "white_guard": this.GetComponent<SpriteRenderer>().sprite = white_guard; player = "white"; break;
+            case "white_chicken": this.GetComponent<SpriteRenderer>().sprite = white_chicken; player = "white"; break;
 
             // Blocked field
             case "blocked_field": this.GetComponent<SpriteRenderer>().sprite = blocked_field; player = "blocked"; break;
@@ -151,6 +153,12 @@ public class Chessman : MonoBehaviour
             case "white_guard":
                 GuardMovePlate("white");
                 break;
+            case "white_chicken":
+                ChickenMovePlate("white");
+                break;
+            case "black_chicken":
+                ChickenMovePlate("black");
+                break;
         }
     }
 
@@ -188,6 +196,22 @@ public class Chessman : MonoBehaviour
             PointMovePlate(xBoard + 1, yBoard - 1);
             PointMovePlate(xBoard - 1, yBoard - 1);
             PointMovePlate(xBoard, yBoard + 1);
+        }
+    }
+
+    public void ChickenMovePlate(string playerColor)
+    {
+        if (playerColor == "white")
+        {
+            PointMovePlate(xBoard + 1, yBoard);
+            PointMovePlate(xBoard - 1, yBoard);
+            LineMovePlate(0, 1);
+        }
+        else
+        {
+            PointMovePlate(xBoard + 1, yBoard);
+            PointMovePlate(xBoard - 1, yBoard);
+            LineMovePlate(0, -1);
         }
     }
     public void LMovePlate()
