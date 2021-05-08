@@ -28,8 +28,8 @@ public class Game : MonoBehaviour
     public void Start()
     {
          playerWhite = new GameObject[] { Create("white_pawn", 0, 1), Create("white_pawn", 1, 1),
-             Create("white_pawn", 2, 1), Create("white_pawn", 3, 1), Create("white_pawn", 4, 1), Create("white_pawn", 5, 1),
-             Create("white_pawn", 6, 1), Create("white_pawn", 7, 1), Create("white_pawn", 8, 1), Create("white_pawn", 9, 1),
+             Create("white_pawn", 2, 1), Create("white_guard", 3, 1), Create("white_pawn", 4, 1), Create("white_guard", 5, 1),
+             Create("white_guard", 6, 1), Create("white_pawn", 7, 1), Create("white_guard", 8, 1), Create("white_pawn", 9, 1),
              Create("white_pawn", 10, 1), Create("white_pawn", 11, 1),
 
              Create("white_chicken", 0, 0), Create("white_rook", 1, 0), Create("white_chicken", 2, 0), Create("white_bishop", 3, 0),
@@ -38,8 +38,8 @@ public class Game : MonoBehaviour
          };
 
          playerBlack = new GameObject[] { Create("black_pawn", 0, 6), Create("black_pawn", 1, 6),
-             Create("black_pawn", 2, 6), Create("black_pawn", 3, 6), Create("black_pawn", 4, 6), Create("black_pawn", 5, 6),
-             Create("black_pawn", 6, 6), Create("black_pawn", 7, 6), Create("black_pawn", 8, 6), Create("black_pawn", 9, 6),
+             Create("black_pawn", 2, 6), Create("black_guard", 3, 6), Create("black_pawn", 4, 6), Create("black_guard", 5, 6),
+             Create("black_guard", 6, 6), Create("black_pawn", 7, 6), Create("black_guard", 8, 6), Create("black_pawn", 9, 6),
              Create("black_pawn", 10, 6), Create("black_pawn", 11, 6),
 
              Create("black_chicken", 0, 7), Create("black_rook", 1, 7), Create("black_chicken", 2, 7), Create("black_bishop", 3, 7), 
