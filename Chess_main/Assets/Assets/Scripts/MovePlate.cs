@@ -4,24 +4,24 @@ using UnityEngine;
 
 public class MovePlate : MonoBehaviour
 {
-    //Some functions will need reference to the controller
     public GameObject controller;
 
-    //The Chesspiece that was tapped to create this MovePlate
+    // Dette er den reference, der bruges til at vide, hvilken slags skakbrik, der trykkes på.
     GameObject reference = null;
 
-    //Location on the board
+    // Disse variabler er positions-variabler.
     int matrixX;
     int matrixY;
 
-    //false: movement, true: attacking
+    // er denne false, er det bare et normalt træk, er den true er det et "attack."
     public bool attack = false;
+
+    // Dette er den funktion, der gør, at når der skal spawnes en "attackmoveplate", så skiftes farven på "moveplaten" til rød.
 
     public void Start()
     {
         if (attack)
         {
-            //Set to red
             gameObject.GetComponent<SpriteRenderer>().color = new Color(1.0f, 0.0f, 0.0f, 1.0f);
         }
     }
@@ -30,7 +30,7 @@ public class MovePlate : MonoBehaviour
     {
         controller = GameObject.FindGameObjectWithTag("GameController");
 
-        //Destroy the victim Chesspiece
+        // Skulle en skakbrik være blevet dræbt, vil den her blive fjernet.
         if (attack)
         {
             GameObject cp = controller.GetComponent<Game>().GetPosition(matrixX, matrixY);
@@ -41,36 +41,40 @@ public class MovePlate : MonoBehaviour
             Destroy(cp);
         }
 
-        //Set the Chesspiece's original location to be empty
+        // Sætte den brik, der lige er rykkets gamle position til at være tom.
         controller.GetComponent<Game>().SetPositionEmpty(reference.GetComponent<Chessman>().GetXBoard(),
             reference.GetComponent<Chessman>().GetYBoard());
 
-        //Move reference chess piece to this position
+        // Rykker den brik, der skal rykkes til en ny position rent talmæssigt.
         reference.GetComponent<Chessman>().SetXBoard(matrixX);
         reference.GetComponent<Chessman>().SetYBoard(matrixY);
         reference.GetComponent<Chessman>().SetCoords();
 
-        //Update the matrix
+        // Opdaterer hele pladen således den følger den matrix, der opdateres ovenover.
         controller.GetComponent<Game>().SetPosition(reference);
 
         //Switch Current Player
         controller.GetComponent<Game>().NextTurn();
 
-        //Destroy the move plates including self
+        // Fjerner de moveplates, der var spawnet.
         reference.GetComponent<Chessman>().DestroyMovePlates();
     }
 
+
+    // Reference til, hvor en brik er placeret.
     public void SetCoords(int x, int y)
     {
         matrixX = x;
         matrixY = y;
     }
 
+    // Reference
     public void SetReference(GameObject obj)
     {
         reference = obj;
     }
 
+    // Mere reference til debugging.
     public GameObject GetReference()
     {
         return reference;

@@ -6,25 +6,25 @@ using UnityEngine.UI;
 
 public class Game : MonoBehaviour
 {
-    //Reference from Unity IDE
+    // Reference
     public GameObject chesspiece;
 
-    //Matrices needed, positions of each of the GameObjects
-    //Also separate arrays for the players in order to easily keep track of them all
-    //Keep in mind that the same objects are going to be in "positions" and "playerBlack"/"playerWhite"
+    /*
+    Matixer for at vide, hvor hver brik er placeret på boardet.
+    Derudover er hver spillers brikker blevet separeret således at det det er nemmer at holde styr på.
+    */
     private GameObject[,] positions = new GameObject[12, 8];
     private GameObject[] playerBlack = new GameObject[16];
     private GameObject[] playerWhite = new GameObject[16];
     private GameObject[] blockedField = new GameObject[4];
 
-    //current turn
+    // (virker ikke), men skulle bruges til at vide, hvem der måtte rykke.
     private string currentPlayer = "white";
 
-    //Game Ending
+    // Game ending
     private bool gameOver = false;
 
-    //Unity calls this right when the game starts, there are a few built in functions
-    //that Unity can call for you
+    // Unity kalder denne funktion når spillet starter, hvilket spawner alle brikkerne ind.
     public void Start()
     {
          playerWhite = new GameObject[] { Create("white_pawn", 0, 1), Create("white_pawn", 1, 1),
@@ -55,8 +55,10 @@ public class Game : MonoBehaviour
          };
 
 
-
-        //Set all piece positions on the positions board
+        /*
+        Placerer alle brikkerne på pladen rent talmæssigt inde i dataet, hvorefter matrixen opdateres så de står efter,
+        hvad der står i koden.
+        */
         for (int i = 0; i < playerWhite.Length; i++)
         {
             SetPosition(playerBlack[i]);
@@ -69,17 +71,21 @@ public class Game : MonoBehaviour
         };
     }
 
+    // Denne funktion bruges til at spawne hver skakbrik, og bruges rigtig mange gange ovenover, når spillet starter.
     public GameObject Create(string name, int x, int y)
     {
         GameObject obj = Instantiate(chesspiece, new Vector3(0, 0, -1), Quaternion.identity);
-        Chessman cm = obj.GetComponent<Chessman>(); //We have access to the GameObject, we need the script
-        cm.name = name; //This is a built in variable that Unity has, so we did not have to declare it before
+        Chessman cm = obj.GetComponent<Chessman>();
+        cm.name = name;
         cm.SetXBoard(x);
         cm.SetYBoard(y);
-        cm.Activate(); //It has everything set up so it can now Activate()
+        cm.Activate();
         return obj;
     }
 
+    /*
+    Denne funktion bruges til at placere brikkerne rigtigt på pladen i dataet, og derefter skulle den gerne skifte tur.   
+    */
     public void SetPosition(GameObject obj)
     {
         Chessman cm = obj.GetComponent<Chessman>();
@@ -89,31 +95,39 @@ public class Game : MonoBehaviour
         NextTurn();
     }
 
+    // Sætter en valgt position til tom.
     public void SetPositionEmpty(int x, int y)
     {
         positions[x, y] = null;
     }
+
+    // En funktion, der bruges til at finde ud af, om der står en brik på et specifikt. felt.
     public GameObject GetPosition(int x, int y)
     {
         return positions[x, y];
     }
 
+    // Tjekker om en brik, eller "moveplate", er på boardet.
     public bool PositionOnBoard(int x, int y)
     {
         if (x < 0 || y < 0 || x >= positions.GetLength(0) || y >= positions.GetLength(1)) return false;
         return true;
     }
 
+    // (virker ikke) finder ud af, hvilken spiller der må rykke lige nu.
     public string GetCurrentPlayer()
     {
         return currentPlayer;
     }
 
+    // Spørger om spillet er slut.
     public bool IsGameOver()
     {
         return gameOver;
     }
 
+
+    // (virker ikke) skifter tur.
     public void NextTurn()
     {
         if (currentPlayer == "white")
@@ -126,14 +140,14 @@ public class Game : MonoBehaviour
         }
     }
 
+    // Skulle spillet være færdigt, så genstarter det.
     public void Update()
     {
         if (gameOver == true && Input.GetMouseButtonDown(0))
         {
             gameOver = false;
 
-            //Using UnityEngine.SceneManagement is needed here
-            SceneManager.LoadScene("Game"); //Restarts the game by loading the scene over again
+            SceneManager.LoadScene("Game");
         }
     }
 
